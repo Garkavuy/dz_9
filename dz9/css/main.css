@@ -1,0 +1,104 @@
+body {
+    font-family: 'robotobold', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    margin: 50px;
+    line-height: 75px;
+}
+
+p {
+    text-align: center;
+    line-height: 180px;
+}
+
+li > p {
+    line-height: 90px;
+}
+
+.one {
+    background: #E6E6E6;
+    overflow: hidden;
+    text-align: center;
+}
+
+.one1 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    color: #FFFFFF;
+    background: #FC8F8F;
+}
+
+.one2 {
+    float: right;
+    width: 200px;
+    height: 200px;
+    color: #FFFFFF;
+    background: #FC8F8F;
+}
+
+.two {
+    overflow: hidden;
+    background: #E6E6E6;
+    margin-top: 50px;
+}
+
+.two1 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    color: #FFFFFF;
+    background: #FC8F8F;
+}
+
+
+ul {
+    font-size: 36px;
+    line-height: 42px;
+    float: right;
+    color: #FFFFFF;
+}
+
+li {
+    float: left;
+    background: #FC8F8F;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 10px;
+}
+
+.three {
+    background: #E6E6E6;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.three div {
+    margin-left: 15px;
+}
+
+.three1:first-child {
+    margin-left: 0;
+}
+
+.three1,
+.three2 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    color: #FFFFFF;
+    background: #FC8F8F;
+}
+
+.right {
+    float: right;
+}
+
+.three3 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    color: #FFFFFF;
+    background: #FC8F8F;
+}
